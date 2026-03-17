@@ -1,0 +1,11 @@
+#hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 100px 20px;
+    border-radius: 10px;
+}
