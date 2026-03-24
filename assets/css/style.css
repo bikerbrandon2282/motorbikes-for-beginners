@@ -1,3 +1,6 @@
+body {
+    background-color: #F5F1EB;
+}
 #hero {
     background-image: url("../images/hero.jpg");
     background-size: cover;
@@ -8,4 +11,44 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     padding: 100px 20px;
     border-radius: 10px;
+}
+#getting-started {
+    background-image: url("../images/getting-started-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 100px 20px;
+    border-radius: 10px;
+}
+#safe-tips {
+    background-image: url("../images/safe-tips-bg.webp");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 100px 20px;
+    border-radius: 10px;
+}
+#types {
+    background-image: url("../images/types-bg.webp");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 100px 20px;
+    border-radius: 10px;
+}
+.text-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px #000000;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5rem;
 }
