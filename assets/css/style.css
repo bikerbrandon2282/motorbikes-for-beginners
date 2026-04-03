@@ -7,7 +7,7 @@ hr {
   background-color: white;
 }
 body {
-  background-image: url("assets/images/webpage-bg.webp");
+  background-image: url("./assets/images/webpage-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -37,7 +37,7 @@ img {
   font-size: 1rem;
 }
 #hero {
-  background-image: url("assets/images/hero.webp");
+  background-image: url("./assets/images/hero.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -48,7 +48,7 @@ img {
   border-radius: 10px;
 }
 #getting-started {
-  background-image: url("assets/images/getting-started-bg.webp");
+  background-image: url("./assets/images/getting-started-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -59,7 +59,7 @@ img {
   border-radius: 10px;
 }
 #safe-tips {
-  background-image: url("assets/images/restrictions-bg.webp");
+  background-image: url("./assets/images/restrictions-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -70,7 +70,7 @@ img {
   border-radius: 10px;
 }
 #essential-tips {
-  background-image: url("assets/images/getting-started-bg.webp");
+  background-image: url("./assets/images/getting-started-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -82,7 +82,7 @@ img {
 }
 #types-of-licenses,
 #types {
-  background-image: url("assets/images/types-of-licenses.webp");
+  background-image: url("./assets/images/types-of-licenses.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -93,7 +93,7 @@ img {
   border-radius: 10px;
 }
 #types {
-  background-image: url("assets/images/types-bg.webp");
+  background-image: url("../images/types-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -105,7 +105,7 @@ img {
 }
 /* licence-requirements must have image changed to something different, current is a placeholder to demonstrate layout */
 #license-requirements {
-  background-image: url("assets/images/hero.webp");
+  background-image: url("./assets/images/hero.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -116,7 +116,7 @@ img {
   border-radius: 10px;
 }
 #riding-restrictions {
-  background-image: url("assets/images/restrictions-bg.webp");
+  background-image: url("./assets/images/restrictions-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -127,7 +127,7 @@ img {
   border-radius: 10px;
 }
 #road-awareness {
-  background-image: url("assets/images/road-awareness-bg.webp");
+  background-image: url(".assets/images/road-awareness-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
