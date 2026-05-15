@@ -149,7 +149,5 @@ img {
 
 /* Media Queries */
 @media screen and (max-width: 576px) {
-  #types {
-    margin-top: 48px;
-  }
+  
 }
