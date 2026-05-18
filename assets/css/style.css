@@ -49,6 +49,8 @@ img {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 100px 20px;
   border-radius: 10px;
+  max-width: 800px;
+  max-height: 450px;
 }
 #getting-started {
   background-image: url("../images/getting-started-bg.webp");
