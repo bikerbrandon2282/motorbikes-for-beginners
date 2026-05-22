@@ -127,6 +127,20 @@ img {
 }
 
 /* Media Queries */
+@media screen and (max-width: 280px) {
+  #hero,
+  #getting-started,
+  #safe-tips,
+  #essential-tips,
+  #types-of-licenses,
+  #types,
+  #license-requirements,
+  #riding-restrictions,
+  #road-awareness,
+  #maintenance {
+    padding: 60px 16px;
+  }
+}
 @media screen and (max-width: 576px) {
   #hero,
   #getting-started,
