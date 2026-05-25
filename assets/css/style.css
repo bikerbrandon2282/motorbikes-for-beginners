@@ -85,7 +85,7 @@ img {
 #types {
   background-image: url("../images/types-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 100%;
   align-items: center;
   justify-content: center;
   color: white;
@@ -137,6 +137,48 @@ img {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 100px 20px;
   border-radius: 10px;
+}
+
+/* Responsive Styles */
+#types:hover {
+  p {
+    font-size: 1.8rem;
+  }
+}
+#sportbikes:hover {
+  img {
+    height: 200px;
+  }
+  p {
+    font-size: 1.35rem;
+  }
+}
+
+#dirtbikes:hover {
+  img {
+    height: 200px;
+  }
+  p {
+    font-size: 1.35rem;
+  }
+}
+
+#cruisers:hover {
+  img {
+    height: 200px;
+  }
+  p {
+    font-size: 1.35rem;
+  }
+}
+
+#standard:hover {
+  img {
+    height: 200px;
+  }
+  p {
+    font-size: 1.35rem;
+  }
 }
 
 a:hover {
