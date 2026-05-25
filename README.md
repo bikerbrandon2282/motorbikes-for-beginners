@@ -16,9 +16,10 @@
 ## Development
 - As I currently have nothing, I must first build the HTML boilerplate with a starting structure, pick a navigation style
 - I have also created some user stories to help build the website and track my progress with a priority marker to indicate the order the features must be implemented 
-- Before building the website I build a basic wireframe in order to guide me on the layout of the homepage and rough layout of how the whole site will look. (see screenshot below)
+- Before building the website I built a basic wireframe in order to guide me on the layout of the homepage and rough layout of how the whole site will look. (see screenshot below)
 
 ![screenshot of wireframe showing basic layout of homepage](assets/images/wireframe.webp)
+
 ## Future Features
 - There will be a newsletter form the user can sign up to in order to receieve a frequent update about the next events coming up based on their age and how frequent they would like the update
 
@@ -61,13 +62,43 @@ At each step if I have had any issues I cannot resolve after searching the probl
 
 Throughout my time creating this website, I have come across numerous issues, including sizing errors on different screen sizes, or images not loading correctly. For an example of when I have used a cohorts help, I was running into an issue with readability where the text showing over my images was not very clear, I showed my collegues a screenshot of my screen at the time to ask for any suggestions on how to make the text stand out more. This was very helpful in getting different ways to solve the problem. 
 
+After Submitting my project the first time, I failed as I had forgotten to add responsiveness to the design, I also needed to fix some spelling errors and layout issues as the project had broken image links and did not look very good on mobile devices. Image links were quickly resolved as I had learnt a little more about the specific syntax of the urls after submitting for assessment. This was simply acheived by removed a '/' at the start of the URL. The layout issues have been rectified by a one to one meeting with Course tutor who geatly helped me figure out a better layout for the cards to help user readability and experience. Below is the testing matrix that shows the issues I had tested and what I did to fix it.
+
+## Testing Matrix
+
+| Feature | Action | Expected Result | Result |
+|---------|--------|----------------|--------|
+| Navigation | Click each link | Correct page loads | **Passed** |
+| Responsive Layout | Resize browser (desktop/tablet/mobile) | Layout adapts correctly | __Failed__ |
+| Responsive Layout | Minimised navbar | Menu opens and navigates correctly | **Passed**  |
+| Responsive Layout| Navigation hover working on all screen sizes | Buttons increase in size |**Passed**|
+| Favicon | Open site in browser | Favicon displays in tab and bookmarks | **Passed**  |
+| Social Media Links | Click each social media icon | Opens correct social media page | **Passed**  |
+| External Links | Click external links | Opens in new tab / correct destination | **Passed** |
+| Broken Links | Check all links | No broken links (internal/external) | **Passed**  |
+| Animations / Interactions | Hover, focus, click states | All interactive elements respond correctly | **Passed** |
+| Images | Check all images load correctly | Images load quickly and display correctly | **Passed** |
+
+## Lighthouse Testing
+
+As an addition to CSS and HTML validation and reviewing the general look and use of my website myself, I also used the Google Chrome Develop Tools to review my pages and improve load times. Below are the Scores I originally got for the index.html file.
+
+![Lighthouse overall scores](assets/images/lighthouse-1.png)
+![Lighthouse LCP reviews and suggestions, first 2 images](assets/images/lighthouse-2.png)
+![Lighthouse LCP reviews and suggestions, last 2 images](assets/images/lighthouse-3.png)
+![Improved Lighthouse scores](assets/images/lighthouse-4.png)
+
+As you can see from the above image, My score drastically improved once I have resized and compressed the images. I was happy with the result so I moved on to the next page.
+
 ## Verifing HTML and CSS code
 
-After finsihing all the content on the website and I was happy with each page, I used several websites and tools in order to verify my code was accessible to screenreaders, loaded quickly for better user experience and to ensure I did not have any unused code or errors. 
+After finishing all the content on the website and I was happy with each page, I used several websites and tools in order to verify my code was accessible to screenreaders, loaded quickly for better user experience and to ensure I did not have any unused code or errors. 
 ### Websites and tools used
 - I used the lighthouse tool within Google chrome dev tools to confirm my code is accessible and loads efficently.
 - I used <a href='https://validator.w3.org/'>W3C Validation Service </a> to confirm my html had no errors or unused code.
 - I used <a href='https://jigsaw.w3.org/css-validator/'>W3C CSS Validation Service</a> to confirm my CSS had no errors or unused code.
+- I used <a href='https://tinypng.com'>TingPNG website to reduce the sizes of all my images to improve page load performance and to improve lighthouse scores.
+- I used <a href='https://mycolor.space'>MyColor.Space website to get my colour scheme for the background and card background to ensure the colours go well together to improve user experience
 
 ## Conclusion
 
