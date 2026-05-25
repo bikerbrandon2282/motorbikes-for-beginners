@@ -40,7 +40,7 @@
 ## Attribrutions
 
 Below is the images I have used for this project, Most came from a Website called <a href='https://pngtree.com'>pngtree.com</a> All were then converted to WEBP images using a website called <a href='https://freeconvert.com/png-to-webp'>freeconvert.com</a> 
-- Main background of webpages >  <a href='https://pngtree.com/freebackground/beautiful-woman-riding-a-motorcycle-at-dusk_1497215.html'>free background photos from pngtree.com</a>
+- Main background of webpages >  <a href='https://pngtree.com/freebackground/beautiful-woman-riding-a-motorcycle-at-dusk_1497215.html'>free background photos from pngtree.com</a> This photo is still in images folder however is no longer in use.
 - Types of Licences background >  <a href='https://pngtree.com/freebackground/red-touring-motorcycle-parked-on-scenic-mountain-road-at-golden-hour-sunset_20270343.html'>free background photos from pngtree.com</a>
 - Road Awareness background > <a href='https://pngtree.com/freebackground/a-cyclist-on-the-road-in-autumn-wearing-an-orange-jacket-and-black-helmet-with-gray-backpack-rides-their-bike-through-traffic_16416635.html'>background photo from pngtree.com</a>
 - Maintenance background > <a href= 'https://pngtree.com/freebackground/vintage-motorcycle-headlight_15570017.html'>background photo from pngtree.com</a>
@@ -51,7 +51,7 @@ Below is the images I have used for this project, Most came from a Website calle
 - Standard bikes background > <a href= 'https://pngtree.com/freebackground/motorcycles-at-the-bmw-show-during-the-day-without-photographs-in-the-car-interior_1521790.html'>background photo from pngtree.com</a>
 - Riding Restrictions section background > <a href= 'https://pngtree.com/freebackground/sleek-black-motorcycle-with-chrome-accents-against-abstract-textured-background_16733140.html'>background photo from pngtree.com</a>
 - Licence Requirements section background > <a href= 'https://pngtree.com/freebackground/motorcycles-is-lined-up-on-a-street_3167491.html'>background photo from pngtree.com</a>
-- Types of bikes section background > <a href= 'https://pngtree.com/freebackground/super-rally---harley-motor-parade-club-super-motorcycle-photo_5409765.html'>background photo from pngtree.com</a>
+- Types of bikes section background > <a href= 'https://stock.adobe.com/search?k=motorbike+background&asset_id=331783924'>background photo from stock.adobe.com</a>
 - Essential tips section background > <a href= 'https://pngtree.com/freebackground/auto-mechanic-working-in-garage-repair-service_15452865.html'>background photo from pngtree.com</a>
 - Safety Tips section background > <a href= 'https://pngtree.com/freebackground/dog-in-front-of-a-motorcycle_2875075.html'>background photo from pngtree.com</a>
 - Getting started section background > <a href= 'https://pngtree.com/freebackground/biker-motorcycle-with-two-helmets-freedom-helmet-bikers-photo_4977377.html'>background photo from pngtree.com</a>
