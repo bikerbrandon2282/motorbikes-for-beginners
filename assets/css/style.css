@@ -46,7 +46,7 @@ img {
   align-items: center;
   justify-content: center;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   padding: 100px 20px;
   margin: 20px auto;
   border-radius: 10px;
@@ -83,15 +83,16 @@ img {
   border-radius: 10px;
 }
 #types {
-  background-image: url("../images/types-bg.webp");
+  background-image: url("../images/types-bg.jpg");
   background-size: cover;
   background-position: center;
   align-items: center;
   justify-content: center;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 100px 20px;
   border-radius: 10px;
+  max-width: 750px;
+  max-height: 420px;
 }
 #license-requirements {
   background-image: url("../images/license-requirements.webp");
