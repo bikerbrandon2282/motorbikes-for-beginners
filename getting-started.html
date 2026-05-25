@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A simple demo of Bootstrap">
     <title>Motorcycles for Beginners | Getting Started</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"
@@ -37,9 +41,9 @@
         </div>
     </nav>
     <main>
-        <section class="container mt-5 d-flex border border-0" id="license-rules" style="border: 1px solid;">
-            <div class="container mt-5 pe-3 me-3" id="license-requirements">
-                <div>
+        <section class="container mt-5 d-flex border border-0" id="license-rules">
+            <div id="license-requirements">
+                <div class="text-center">
                     <h1 class="mb-4 text-center">Licence Requirements</h1>
                     <p class="lead text-center"><span class="text-bg">Your ultimate guide to starting your motorcycle journey. Whether you're a complete novice or just looking for some tips, we've got you covered.</span></p>
                     <hr class="my-4">
@@ -47,15 +51,18 @@
                         <span class="text-bg">
                             First thing you will need to do is get your motorcycle licence.<br> 
                             The requirements for this will vary depending on where you live, 
-                            but generally, you will need to pass a written theory test and a practicalriding test.<br> 
+                            but generally, you will need to pass a written theory test and a practical riding test.<br> 
                             This Website is based on the requirements for a motorcycle licence in the United Kingdom.
-                            <ol class="text-bg">
-                                <li class="mb-3">You will need to be at least 16 years old and hold a provisional driving licence to start the process.</li>
-                                <li>Next, you will need to complete a Compulsory Basic Training (CBT) course, 
-                                    which is a one-day training program that covers the basics of motorcycle riding and safety. Once you have your
-                                    CBT certificate you will be able to ride a motorcycle with L-plates on the road for 2 years.
-                                </li>
-                            </ol>
+                            <details>
+                                <summary class="text-bg">Click here to see the requirements for a motorcycle licence in the UK</summary>
+                                <ol class="text-bg">
+                                    <li class="mb-3">You will need to be at least 16 years old and hold a provisional driving licence to start the process.</li>
+                                    <li>Next, you will need to complete a Compulsory Basic Training (CBT) course, 
+                                        which is a one-day training program that covers the basics of motorcycle riding and safety. Once you have your
+                                        CBT certificate you will be able to ride a motorcycle with L-plates on the road for 2 years.
+                                    </li>
+                                </ol>
+                            </details>
                         </span>
                     </p>
                 </div>
@@ -68,7 +75,9 @@
                      As a new rider there are certain restrictions you must adhere to.</span>
                 </p>
                 <hr>
-                <ul class="text-bg mt-5">
+                <details>
+                    <summary class="text-bg">Click here to see the riding restrictions for new riders in the UK</summary>
+                    <ul class="text-bg mt-5">
                     <li class="mb-3">
                         All riders without a full motorcycle licence must ride with 'L' Plates on front and rear at all times.
                     </li>
@@ -94,22 +103,25 @@
                     <hr class="my-4">
                     <p class="text-center">
                         <span>
-                            <ul class="text-bg">
-                                <li class="mb-2">
-                                    If you took your test on a motorcycle with an engine size of 125cc or less (up to 11KW of power), 
-                                    you will receive an A1 licence, which allows you to ride motorcycles up to 125cc. The minimum age for this licence is 17 years old.
-                                </li>
-                                <li class="mb-2">
-                                    If you took your test on a motorcycle with a motorcycle of minimum engine size  245cc and between 11KW and 35kW of power, 
-                                    you will receive an A2 licence, which allows you to ride motorcycles between 20kW and 35kW. The minimum age for this licence is 19 years old.
-                                </li>
-                                <li class="mb-2">
-                                    If you took your test on a motorcycle with an engine size of at least 595cc and at least 50kW of power, 
-                                    you will receive an A licence, 
-                                    which allows you to ride any motorcycle. The minimum age for this licence is 24 years old, or 
-                                    21 years old if you have held an A2 licence for at least 2 years.
-                                </li>
-                            </ul>
+                            <details>
+                                <summary class="text-bg">Click here to see the different types of motorcycle licences in the UK</summary>
+                                <ul class="text-bg mt-3">
+                                    <li class="mb-2">
+                                        If you took your test on a motorcycle with an engine size of 125cc or less (up to 11KW of power), 
+                                        you will receive an A1 licence, which allows you to ride motorcycles up to 125cc. The minimum age for this licence is 17 years old.
+                                    </li>
+                                    <li class="mb-2">
+                                        If you took your test on a motorcycle with a motorcycle of minimum engine size  245cc and between 11KW and 35kW of power, 
+                                        you will receive an A2 licence, which allows you to ride motorcycles between 20kW and 35kW. The minimum age for this licence is 19 years old.
+                                    </li>
+                                    <li class="mb-2">
+                                        If you took your test on a motorcycle with an engine size of at least 595cc and at least 50kW of power, 
+                                        you will receive an A licence, 
+                                        which allows you to ride any motorcycle. The minimum age for this licence is 24 years old, or 
+                                        21 years old if you have held an A2 licence for at least 2 years.
+                                    </li>
+                                </ul>
+                            </details>
                         </span>
                     </p>
                 </div>
