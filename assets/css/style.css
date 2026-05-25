@@ -7,7 +7,7 @@ hr {
   background-color: white;
 }
 body {
-  background-image: url("../images/webpage-bg.webp");
+  background-color: #aca7cb;
   background-size: cover;
   background-position: center;
 }
@@ -40,7 +40,7 @@ img {
   font-size: 1rem;
 }
 #hero {
-  background-image: url("../images/hero.webp");
+  background-image: url("../images/resized-hero.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -48,6 +48,7 @@ img {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 100px 20px;
+  margin: 20px auto;
   border-radius: 10px;
   max-width: 750px;
   max-height: 420px;
@@ -126,6 +127,10 @@ img {
   border-radius: 10px;
 }
 
+a:hover {
+  font-size: 1.35rem;
+}
+
 /* Media Queries */
 @media screen and (max-width: 576px) {
   #hero,
@@ -138,7 +143,11 @@ img {
   #riding-restrictions,
   #road-awareness,
   #maintenance {
-    padding: 60px 16px;
+    padding: 60px 0px;
+  }
+
+  #hero {
+    max-height: 480px;
   }
 
   .navbar-brand {
