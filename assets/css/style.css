@@ -71,7 +71,7 @@ img {
   padding: 100px 20px;
   border-radius: 10px;
 }
-#types-of-licenses {
+#types-of-licences {
   background-image: url("../images/types-of-licenses.webp");
   background-size: cover;
   background-position: center;
@@ -94,7 +94,7 @@ img {
   max-width: 750px;
   max-height: 420px;
 }
-#license-requirements {
+#licence-requirements {
   background-image: url("../images/license-requirements.webp");
   background-size: cover;
   background-position: center;
@@ -192,9 +192,9 @@ a:hover {
   #getting-started,
   #safe-tips,
   #essential-tips,
-  #types-of-licenses,
+  #types-of-licences,
   #types,
-  #license-requirements,
+  #licence-requirements,
   #riding-restrictions,
   #road-awareness,
   #maintenance {
