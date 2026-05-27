@@ -204,6 +204,22 @@ a:hover {
   #hero {
     max-height: 480px;
   }
+  #essential-tips, #road-awareness, #maintenance {
+    max-height: 490px;
+    max-width: 90vw;
+    margin-bottom: 30px;
+  }
+  details {
+    font-size: 0.95rem;
+    max-height:100px;
+    overflow: auto;
+    scroll-behavior: auto;
+  }
+
+  summary {
+    position: sticky;
+    top: 0;
+  }
 
   .navbar-brand {
     margin-left: 0 !important;
