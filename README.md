@@ -82,6 +82,12 @@ After Submitting my project the first time, I failed as I had forgotten to add r
 | Animations / Interactions | Hover, focus, click states | All interactive elements respond correctly | **Passed** |
 | Images | Check all images load correctly | Images load quickly and display correctly | **Passed** |
 
+## Retesting failures
+
+| Feature | Action | Expected Result | Result |
+|---------|--------|----------------|--------|
+| Responsive Layout | Resize browser (desktop/tablet/mobile) | Layout adapts correctly | **Passed**|
+
 ## Lighthouse Testing
 
 As an addition to CSS and HTML validation and reviewing the general look and use of my website myself, I also used the Google Chrome Develop Tools to review my pages and improve load times. Below are the Scores I originally got for the index.html file.
@@ -155,6 +161,13 @@ I then used the W3C CSS Validator to check my stylesheet and it came up with the
 
 ![CSS Code verifier for all pages](assets/images/cssfile-checker.png)
 
+After using a few different online 'solutions' and documentation that was very vague on how to fix the issue, I could not fix it. I decided to try use a different code validator which I have included below, the issues do not show and the code remains uncahged. I had two info messages 1 of which I could easily fix so below is the first new Validation result and the result of removing the 'px' suffix from the media queries where it was not needed.
+
+![CSS Code verifier for all pages](assets/images/cssfile-checker-2.png)
+
+
+![Final CSS Code verifier for all pages](assets/images/cssfile-checker-3.png)
+
 
 ## Websites and tools used
 - I used the lighthouse tool within Google chrome dev tools to confirm my code is accessible and loads efficently.
@@ -163,7 +176,10 @@ I then used the W3C CSS Validator to check my stylesheet and it came up with the
 - I used <a href='https://tinypng.com'>TingPNG</a> website to reduce the sizes of all my images to improve page load performance and to improve lighthouse scores.
 - I used <a href='https://mycolor.space'>MyColor.Space</a> website to get my colour scheme for the background and card background to ensure the colours go well together to improve user experience
 - I used <a href='https://www.the-image-editor.com/'> The Image Editor</a> to resize my lighthouse images and make them slightly smaller than the original screenshots to improve the layout of my README
+- After having issues with the jigsaw W3C CSS validator, I decided to use <a href='https://www.cssportal.com/css-validator/'>CSS Portal's Validator</a> instead where no errors occured.
 
 ## Conclusion
 
 This has been what feels like a very long project build, however it has taught me the basics of web building, Shown me how infuriating typos and 'not so obvious' errors can be. Overall I am happy with how the website has turned out. and I am hoping to get a good grade for this and use this project to remind me in future how far I will have come and hopefully to help showcase my skills to potential employers.
+
+After fixing error after error after error in what felt like an extended cycle of stress, I have now come to the conclusion that whenever I am given the option of using Bootstrap or not, I will not be using it as it caused me more stress than it saved time. I struggled to get it to work side by side with my own custom styles so in future in each project I will build the styles myself instead, I believe this makes debugging much easier, this will also improve Lighthouse testing as Bootstrap shows as 'unused CSS' which I obviously cannot fix. This has been a real learning opportunity and I am now thankful I can move onto my next one
