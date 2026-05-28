@@ -61,7 +61,7 @@ img {
   justify-content: center;
 }
 #essential-tips {
-  background-image: url("../images/essential-tips.webp");
+  background-image: url("../images/essential-tips-resized.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -72,7 +72,7 @@ img {
   border-radius: 10px;
 }
 #types-of-licences {
-  background-image: url("../images/types-of-licenses.webp");
+  background-image: url("../images/types-of-licenses-resized.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -95,7 +95,7 @@ img {
   max-height: 420px;
 }
 #licence-requirements {
-  background-image: url("../images/license-requirements.webp");
+  background-image: url("../images/license-requirements-resized.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -106,7 +106,7 @@ img {
   border-radius: 10px;
 }
 #riding-restrictions {
-  background-image: url("../images/restrictions-bg.webp");
+  background-image: url("../images/restrictions-bg-resized.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -118,7 +118,7 @@ img {
   max-width: 930px;
 }
 #road-awareness {
-  background-image: url("../images/road-awareness-bg.webp");
+  background-image: url("../images/road-awareness-bg-resized.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -129,7 +129,7 @@ img {
   border-radius: 10px;
 }
 #maintenance {
-  background-image: url("../images/maintenance-bg.webp");
+  background-image: url("../images/maintenance-bg-resized.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
