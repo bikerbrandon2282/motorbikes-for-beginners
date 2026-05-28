@@ -58,6 +58,10 @@ Below is the images I have used for this project, Most came from a Website calle
 
 At each step if I have had any issues I cannot resolve after searching the problem on <a href='https://www.google.com'>google.com</a> or <a href='https://www.stackoverflow.com'>stackoverflow.com</a> I have asked for help in the group discord chat with the other course cohorts.
 
+## Colour Pallette
+I used the mycolor.space website linked in the Attributions above to choose my colour pallette which you can see below, I chose this using the colour of my Navbar to add a good mix of colours for the backgrounds that blend well with the navigation to hopefully improve overall appeal.
+
+![Image of Colouor Pallette chosen](assets/images/mycolor.space-colour-pallette.png)
 ## Issues and corrections
 
 Throughout my time creating this website, I have come across numerous issues, including sizing errors on different screen sizes, or images not loading correctly. For an example of when I have used a cohorts help, I was running into an issue with readability where the text showing over my images was not very clear, I showed my collegues a screenshot of my screen at the time to ask for any suggestions on how to make the text stand out more. This was very helpful in getting different ways to solve the problem. 
@@ -83,22 +87,39 @@ After Submitting my project the first time, I failed as I had forgotten to add r
 
 As an addition to CSS and HTML validation and reviewing the general look and use of my website myself, I also used the Google Chrome Develop Tools to review my pages and improve load times. Below are the Scores I originally got for the index.html file.
 
-![Lighthouse overall scores](assets/images/lighthouse-1.png)
-![Lighthouse LCP reviews and suggestions, first 2 images](assets/images/lighthouse-2.png)
-![Lighthouse LCP reviews and suggestions, last 2 images](assets/images/lighthouse-3.png)
-![Improved Lighthouse scores](assets/images/lighthouse-4.png)
+### Lighthouse overall scores
+
+![Lighthouse overall scores](assets/images/lighthouse-1_resized.png)
+
+### Lighthouse LCP reviews and suggestions, first 2 images
+
+![Lighthouse LCP reviews and suggestions, first 2 images](assets/images/lighthouse-2_resized.png)
+
+### Lighthouse LCP reviews and suggestions, last 2 images
+
+![Lighthouse LCP reviews and suggestions, last 2 images](assets/images/lighthouse-3_resized.png)
+
+### Home page on mobile screen
+
+![Home page on mobile screen](assets/images/lighthouse-5-mobile_resized.png)
+
+### Improved Lighthouse scores
+
+![Improved Lighthouse scores](assets/images/lighthouse-4_resized.png)
+
 
 As you can see from the above image, My score drastically improved once I have resized and compressed the images. I was happy with the result so I moved on to the next page.
 
 ## Verifing HTML and CSS code
 
 After finishing all the content on the website and I was happy with each page, I used several websites and tools in order to verify my code was accessible to screenreaders, loaded quickly for better user experience and to ensure I did not have any unused code or errors. 
-### Websites and tools used
+## Websites and tools used
 - I used the lighthouse tool within Google chrome dev tools to confirm my code is accessible and loads efficently.
 - I used <a href='https://validator.w3.org/'>W3C Validation Service </a> to confirm my html had no errors or unused code.
 - I used <a href='https://jigsaw.w3.org/css-validator/'>W3C CSS Validation Service</a> to confirm my CSS had no errors or unused code.
-- I used <a href='https://tinypng.com'>TingPNG website to reduce the sizes of all my images to improve page load performance and to improve lighthouse scores.
-- I used <a href='https://mycolor.space'>MyColor.Space website to get my colour scheme for the background and card background to ensure the colours go well together to improve user experience
+- I used <a href='https://tinypng.com'>TingPNG</a> website to reduce the sizes of all my images to improve page load performance and to improve lighthouse scores.
+- I used <a href='https://mycolor.space'>MyColor.Space</a> website to get my colour scheme for the background and card background to ensure the colours go well together to improve user experience
+- I used <a href='https://www.the-image-editor.com/'> The Image Editor</a> to resize my lighthouse images and make them slightly smaller than the original screenshots to improve the layout of my README
 
 ## Conclusion
 
