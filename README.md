@@ -123,4 +123,4 @@ After finishing all the content on the website and I was happy with each page, I
 
 ## Conclusion
 
-This has been what feels like a very long project build however It has taught me the basics of web building, Shown me how infuriating typos and 'not so obvious' errors can be. Overall I am happy with how the website has turned out. and I am hoping to get a good grae for this and use this project to remind me in future how far I will have come and hopefully to help showcase my skills to potential employers.
+This has been what feels like a very long project build, however it has taught me the basics of web building, Shown me how infuriating typos and 'not so obvious' errors can be. Overall I am happy with how the website has turned out. and I am hoping to get a good grade for this and use this project to remind me in future how far I will have come and hopefully to help showcase my skills to potential employers.
