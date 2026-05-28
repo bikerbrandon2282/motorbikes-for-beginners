@@ -16,6 +16,9 @@ img {
   height: auto; 
   border-radius: 10px; 
 }
+div h2 {
+  font-size: 0.83em;
+}
 .background-shade {
   align-items: center;
   justify-content: center;
