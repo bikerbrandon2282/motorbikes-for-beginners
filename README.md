@@ -131,6 +131,27 @@ As you can see from above the last two pages already had a good score so I didn'
 
 After finishing all the content on the website and I was happy with each page, I used several websites and tools in order to verify my code was accessible to screenreaders, loaded quickly for better user experience and to ensure I did not have any unused code or errors. 
 
+![HTML Code verifier for homepage](assets/images/homepage-htmlChecker.png)
+
+![HTML Code verifier for Getting Started page](assets/images/gettingstarted-htmlChecker.png)
+
+I had a bunch of errors on getting started page so I went through them one by one rectifying the problem until I ended with the image below
+
+![HTML Code verifier for Getting Started page final](assets/images/gettingstarted-htmlChecker-2.png)
+
+![HTML Code verifier for Safety Tips page](assets/images/safetytips-htmlChecker.png)
+
+I had a bunch of errors on safety tips page as well so I went through them one by one rectifying the problem until I ended with the image below and then anticipated I may have a similar result for the final page "Types"
+
+![HTML Code verifier for Safety Tips page final](assets/images/safetytips-htmlChecker-2.png)
+
+![HTML Code verifier for Types page](assets/images/types-htmlChecker.png)
+
+Luckily I only one error which was one of the very same from the homepage of not using the semantic heading tags in order so this was a very easy fix as I have already created the CSS style rule for the previous page I can use again
+
+![HTML Code verifier for Types page final](assets/images/types-htmlChecker-2.png)
+
+
 ## Websites and tools used
 - I used the lighthouse tool within Google chrome dev tools to confirm my code is accessible and loads efficently.
 - I used <a href='https://validator.w3.org/'>W3C Validation Service </a> to confirm my html had no errors or unused code.
