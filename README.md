@@ -77,7 +77,6 @@ After Submitting my project the first time, I failed as I had forgotten to add r
 | Responsive Layout | Minimised navbar | Menu opens and navigates correctly | **Passed**  |
 | Responsive Layout| Navigation hover working on all screen sizes | Buttons increase in size |**Passed**|
 | Favicon | Open site in browser | Favicon displays in tab and bookmarks | **Passed**  |
-| Social Media Links | Click each social media icon | Opens correct social media page | **Passed**  |
 | External Links | Click external links | Opens in new tab / correct destination | **Passed** |
 | Broken Links | Check all links | No broken links (internal/external) | **Passed**  |
 | Animations / Interactions | Hover, focus, click states | All interactive elements respond correctly | **Passed** |
@@ -87,17 +86,17 @@ After Submitting my project the first time, I failed as I had forgotten to add r
 
 As an addition to CSS and HTML validation and reviewing the general look and use of my website myself, I also used the Google Chrome Develop Tools to review my pages and improve load times. Below are the Scores I originally got for the index.html file.
 
-### Lighthouse overall scores
+### Lighthouse homepage scores
 
-![Lighthouse overall scores](assets/images/lighthouse-1_resized.png)
+![Lighthouse homepage scores](assets/images/lighthouse-1_resized.png)
 
-### Lighthouse LCP reviews and suggestions, first 2 images
+### Homepage LCP reviews and suggestions, first 2 images
 
-![Lighthouse LCP reviews and suggestions, first 2 images](assets/images/lighthouse-2_resized.png)
+![Homepage LCP reviews and suggestions, first 2 images](assets/images/lighthouse-2_resized.png)
 
-### Lighthouse LCP reviews and suggestions, last 2 images
+### Homepage LCP reviews and suggestions, last 2 images
 
-![Lighthouse LCP reviews and suggestions, last 2 images](assets/images/lighthouse-3_resized.png)
+![Homepage LCP reviews and suggestions, last 2 images](assets/images/lighthouse-3_resized.png)
 
 ### Home page on mobile screen
 
@@ -107,12 +106,31 @@ As an addition to CSS and HTML validation and reviewing the general look and use
 
 ![Improved Lighthouse scores](assets/images/lighthouse-4_resized.png)
 
-
 As you can see from the above image, My score drastically improved once I have resized and compressed the images. I was happy with the result so I moved on to the next page.
+
+### Getting Started scores
+
+![Getting Started scores](assets/images/lighthouse-gettingstarted-1_resized.png)
+
+### Improved Getting Started page scores
+
+![Getting Started scores](assets/images/lighthouse-gettingstarted-2_resized.png)
+
+### Safety Tips page scores
+
+![Safety Tips scores](assets/images/lighthouse-safety-tips-1_resized.png)
+
+### Types page scores
+
+![Types page scores](assets/images/lighthouse-types-1_resized.png)
+
+
+As you can see from above the last two pages already had a good score so I didn't feel I needed to change anything there.
 
 ## Verifing HTML and CSS code
 
 After finishing all the content on the website and I was happy with each page, I used several websites and tools in order to verify my code was accessible to screenreaders, loaded quickly for better user experience and to ensure I did not have any unused code or errors. 
+
 ## Websites and tools used
 - I used the lighthouse tool within Google chrome dev tools to confirm my code is accessible and loads efficently.
 - I used <a href='https://validator.w3.org/'>W3C Validation Service </a> to confirm my html had no errors or unused code.
