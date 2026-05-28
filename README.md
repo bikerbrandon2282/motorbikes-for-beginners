@@ -151,6 +151,10 @@ Luckily I only one error which was one of the very same from the homepage of not
 
 ![HTML Code verifier for Types page final](assets/images/types-htmlChecker-2.png)
 
+I then used the W3C CSS Validator to check my stylesheet and it came up with the following error
+
+![CSS Code verifier for all pages](assets/images/cssfile-checker.png)
+
 
 ## Websites and tools used
 - I used the lighthouse tool within Google chrome dev tools to confirm my code is accessible and loads efficently.
